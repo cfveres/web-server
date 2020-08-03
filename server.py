@@ -8,16 +8,3 @@ def homepage():
 @app.route('/<string:page_name>')
 def html_page(page_name):
     return render_template(page_name)
-
-# @app.route('/about.html')
-# def about_page():
-#     return render_template('about.html')
-
-# @app.route('/components.html')
-# def components_page():
-#     return render_template('components.html')
-
-# @app.route('/contact.html')
-# def contact_page():
-#     return render_template('contact.html')
-
